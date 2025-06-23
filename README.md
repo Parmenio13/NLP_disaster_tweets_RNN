@@ -77,6 +77,28 @@ We'll implement a Bidirectional LSTM network because:
 
 ### Training and Evaluation
 
+Epoch 1/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 27s 188ms/step - AUC: 0.7393 - MeanSquaredError: 0.2030 - accuracy: 0.7021 - loss: 0.5941 - val_AUC: 0.8652 - val_MeanSquaredError: 0.1409 - val_accuracy: 0.8070 - val_loss: 0.4453
+Epoch 2/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 14s 144ms/step - AUC: 0.8475 - MeanSquaredError: 0.1486 - accuracy: 0.7972 - loss: 0.4638 - val_AUC: 0.8715 - val_MeanSquaredError: 0.1361 - val_accuracy: 0.8135 - val_loss: 0.4282
+Epoch 3/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 11s 111ms/step - AUC: 0.8710 - MeanSquaredError: 0.1342 - accuracy: 0.8222 - loss: 0.4291 - val_AUC: 0.8711 - val_MeanSquaredError: 0.1407 - val_accuracy: 0.8056 - val_loss: 0.4377
+Epoch 4/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 11s 117ms/step - AUC: 0.8793 - MeanSquaredError: 0.1338 - accuracy: 0.8123 - loss: 0.4213 - val_AUC: 0.8749 - val_MeanSquaredError: 0.1331 - val_accuracy: 0.8234 - val_loss: 0.4242
+Epoch 5/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 8s 79ms/step - AUC: 0.8785 - MeanSquaredError: 0.1332 - accuracy: 0.8148 - loss: 0.4204 - val_AUC: 0.8749 - val_MeanSquaredError: 0.1356 - val_accuracy: 0.8122 - val_loss: 0.4279
+Epoch 6/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 7s 76ms/step - AUC: 0.8943 - MeanSquaredError: 0.1209 - accuracy: 0.8374 - loss: 0.3872 - val_AUC: 0.8723 - val_MeanSquaredError: 0.1352 - val_accuracy: 0.8155 - val_loss: 0.4253
+Epoch 7/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 7s 78ms/step - AUC: 0.8977 - MeanSquaredError: 0.1185 - accuracy: 0.8447 - loss: 0.3830 - val_AUC: 0.8672 - val_MeanSquaredError: 0.1460 - val_accuracy: 0.8089 - val_loss: 0.4532
+Epoch 8/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 7s 73ms/step - AUC: 0.9100 - MeanSquaredError: 0.1121 - accuracy: 0.8478 - loss: 0.3620 - val_AUC: 0.8666 - val_MeanSquaredError: 0.1381 - val_accuracy: 0.8109 - val_loss: 0.4343
+Epoch 9/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 10s 109ms/step - AUC: 0.9125 - MeanSquaredError: 0.1104 - accuracy: 0.8529 - loss: 0.3547 - val_AUC: 0.8683 - val_MeanSquaredError: 0.1418 - val_accuracy: 0.8070 - val_loss: 0.4486
+Epoch 10/10
+96/96 ━━━━━━━━━━━━━━━━━━━━ 9s 91ms/step - AUC: 0.9219 - MeanSquaredError: 0.1013 - accuracy: 0.8673 - loss: 0.3322 - val_AUC: 0.8607 - val_MeanSquaredError: 0.1413 - val_accuracy: 0.8109 - val_loss: 0.4438
+
+
 ### Hyperparameter Tuning
 We experimented with:
 1. Different embedding dimensions (50, 100, 200)
